@@ -1,14 +1,888 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <title>Damage Packages - RoR2</title>
 </head>
+
 <body>
-    
+    <div class="container p-4">
+        <div class="row text-center">
+            <div class="col">
+                <h1>DAMAGE PACKAGES</h1>
+                <hr class="orange" />
+                <h2>A Risk of Rain 2 Guide</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col">
+                <p>Previously, discussion of builds in ROR2 was rather limited due to players having limited input on
+                    what items they got, but with the introduction of the Command artifact, many players are finding
+                    themselves asking a simple question: "How do I build damage?"
+                </p>
+                <p>The concept of damage packages is that they combine items that synergize underneath into one
+                    convenient, uh, package, so that instead of having each build having to list all the relevant damage
+                    items, they can just refer to the relevant package(s). These are, as you may expect, based on my
+                    experience and opinions. I consider Equipment to be part of your "build", rather than a fragment of
+                    it, so I won't be covering it in this guide.
+                </p>
+            </div>
+        </div>
+        <!-- Crit Container-->
+        <div class="container p-2">
+            <div class="row" data-toggle="collapse" data-target="#collapseCrit">
+                <div class="col">
+                    <div class="media" style="height: 2rem;">
+                        <div class="media-body">
+                            <h4 class="mt-0 mb-1 align-middle">CRIT PACKAGE</h4>
+                        </div>
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/Artificer.png" alt="Artificer">
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/Commando.png" alt="Commando">
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/Engineer.png" alt="Engineer">
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/Huntress.png" alt="Huntress">
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/Loader.png" alt="Loader">
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/Mercenary.png" alt="Mercenary">
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/MUL-T.png" alt="MUL-T">
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/REX.png" alt="REX">
+                    </div>
+                </div>
+            </div>
+
+            <hr class="white" />
+            <div class="container collapse" id="collapseCrit">
+                <div class="row">
+                    <p>Critical attacks deal double damage, but damage-over-time effects (fire, bleed, poison) cannot
+                        crit. This package should be prioritized on characters with slow, heavy hits and is recommended
+                        for all survivors excluding Acrid.
+                    </p>
+                </div>
+                <div class="row">
+                    <table class="table table-dark">
+                        <tr>
+                            <td class="align-middle">
+                                <img class="img-fluid" src="assets/img/items/Lens-Makers_Glasses.png"
+                                    alt="Lens-Maker's Glasses">
+                            </td>
+                            <td class="align-middle">
+                                Lens-Maker's Glasses
+                            </td>
+                            <td class="align-middle font-weight-bold" nowrap>
+                                9
+                            </td>
+                            <td class="align-middle">
+                                Each pair of glasses adds 10% crit chance. If you don't wish to employ the other items
+                                in this
+                                package, stop at 10 glasses instead, as having a crit chance over 100% does nothing.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <img class="img-fluid" src="assets/img/items/Predatory_Instincts.png"
+                                    alt="Predatory Instincts">
+                            </td>
+                            <td class="align-middle">
+                                Predatory Instincts
+                            </td>
+                            <td class="align-middle font-weight-bold" nowrap>
+                                1+
+                            </td>
+                            <td class="align-middle">
+                                Instincts adds 5% crit chance ONCE and grants temporary attack speed after a crit. This
+                                bonus is much higher than Soldier's Syringe, but is also conditional. This part is
+                                optional, but recommended.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <img class="img-fluid" src="assets/img/items/Harvesters_Scythe.png"
+                                    alt="Harvester's Scythe">
+                            </td>
+                            <td class="align-middle">
+                                Harvester's Scythe
+                            </td>
+                            <td class="align-middle font-weight-bold" nowrap>
+                                1+
+                            </td>
+                            <td class="align-middle">
+                                Scythe adds 5% crit chance ONCE and heals you every time you crit. Just one scythe is as
+                                effective as 8 leeching seeds and each additional scythe is worth 4. Any character using
+                                this package should use AT LEAST one scythe.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- On-Hit Container-->
+        <div class="container p-2">
+            <div class="row" data-toggle="collapse" data-target="#collapseOn-Hit">
+                <div class="col">
+                    <div class="media" style="height: 2rem;">
+                        <div class="media-body">
+                            <h4 class="mt-0 mb-1 align-middle">ON-HIT PACKAGE</h4>
+                        </div>
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/Commando.png" alt="Commando">
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/Engineer.png" alt="Engineer">
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/MUL-T.png" alt="MUL-T">
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/REX.png" alt="REX">
+                    </div>
+                </div>
+            </div>
+            <hr class="white" />
+            <div class="container collapse" id="collapseOn-Hit">
+                <div class="row">
+                    <p>The on-hit package is the package of randomness, and the options for randomness are to either
+                        improve your chances or take more chances. This package is recommended for characters who can
+                        attack rapidly, such as Commando, MUL-T, Engineer, and REX, but since on-hit effects generally
+                        scale on damage dealt, this package works on anyone.
+                    </p>
+                </div>
+                <div class="row">
+                    <table class="table table-dark">
+                        <tr>
+                            <td class="align-middle ">
+                                <img class="img-fluid" src="assets/img/items/Soldiers_Syringe.png"
+                                    alt="Soldier's Syringe">
+                            </td>
+                            <td class="align-middle">
+                                Soldier's Syringe
+                            </td>
+                            <td rowspan="2" class="align-middle font-weight-bold" nowrap>
+                                1+
+                            </td>
+                            <td rowspan="2" class="align-middle">
+                                Higher attack speed means more chances to activate an on-hit item. If you're using this
+                                package in combination with the crit package, Predatory Instincts grants more overall
+                                attack speed, but Soldier's Syringe is always at full effect. Once you have enough
+                                defense, healing, and mobility, extra white items should become Syringes.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <img class="img-fluid" src="assets/img/items/Predatory_Instincts.png"
+                                    alt="Predatory Instincts">
+                            </td>
+                            <td class="align-middle">
+                                Predatory Instincts
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <img class="img-fluid" src="assets/img/items/Tri-Tip_Dagger.png" alt="Tri-Tip Dagger">
+                            </td>
+                            <td class="align-middle">
+                                Tri-Tip Dagger
+                            </td>
+                            <td class="align-middle font-weight-bold" nowrap>
+                                1
+                            </td>
+                            <td class="align-middle">The damage of Tri-Tip is based on your survivor's base damage, but
+                                bleed effects can stack, which means more stacks adds more damage. With an on-hit
+                                package, however, adding more attack speed means more procs of other items. Just grab 1
+                                for a bit of extra damage.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">
+                                <img class="img-fluid" src="assets/img/items/Sticky_Bomb.png" alt="Sticky Bomb">
+                            </td>
+                            <td class="align-middle">Sticky Bomb </td>
+                            <td class="align-middle font-weight-bold" nowrap>1 </td>
+                            <td class="align-middle">5% chance to place a time-delayed bomb on-hit. Most enemies will
+                                die before the damage does anything, and the damage doesn't scale on stacks. Grab 1 for
+                                extra damage on high-health targets.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class="img-fluid" src='assets/img/items/AtG_Missile_Mk._1.png'
+                                    alt='AtG Missile Mk. 1'>
+                            </td>
+                            <td class='align-middle'>AtG Missile Mk. 1</td>
+                            <td class='align-middle font-weight-bold' nowrap>1+</td>
+                            <td class='align-middle'>The ATG is primary damage of the on-hit package. The 10% proc
+                                chance never goes up, but each stack is worth 300% damage, and the rockets themselves
+                                have a full proc coefficient, meaning they'll regularly proc your other items. Once you
+                                have the other items in the package, add more ATGs to increase damage.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class="img-fluid" src='assets/img/items/Berzerkers_Pauldron.png'
+                                    alt='Berzerker&#39s Pauldron'>
+                            </td>
+                            <td class='align-middle'>Berzerker's Pauldron</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                            <td class='align-middle'>If you kill 3 enemies in 1 second, this item will give you 100%
+                                extra attack speed and 50% move speed. Grabbing one provides an occasional damage boost,
+                                but stacking pauldrons only extends the duration of the effect.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class="img-fluid" src='assets/img/items/Kjaros_Band.png' alt='Kjaro&#39s Band'>
+                            </td>
+                            <td class='align-middle'>Kjaro&#39s Band</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                            <td class='align-middle' rowspan="2">The bands share a proc check, meaning they will always
+                                be activated
+                                at the same time. As with ATG, adding more bands increases the damage, but only by 250%
+                                and 125% respectively, and neither band can proc other items. Get a matching set and no
+                                more.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class="img-fluid" src='assets/img/items/Runalds_Band.png' alt='Runald&#39s Band'>
+                            </td>
+                            <td class='align-middle'>Runald&#39s Band</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class="img-fluid" src='assets/img/items/Leeching_Seed.png' alt='Leeching Seed'>
+                            </td>
+                            <td class='align-middle'>Leeching Seed</td>
+                            <td class='align-middle font-weight-bold' nowrap>0</td>
+                            <td class='align-middle'>I mention this item only to warn you not to get it. Despite the
+                                description, Leeching Seed only gives health on hit equal to your proc coefficient. If
+                                your on-hit build needs healing, use Fresh Meat or build into the Crit package.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class="img-fluid" src='assets/img/items/Ukulele.png' alt='Ukelele'>
+                            </td>
+                            <td class='align-middle'>Ukelele</td>
+                            <td class='align-middle font-weight-bold' nowrap>1-3</td>
+                            <td class='align-middle'>25% chain lightning chance. The damage is rather negligible at 80%,
+                                and additional stacks only increase the range and targets hit, but each hit can proc
+                                another item, so getting a few will allow you to clear trash enemies while focusing on
+                                the threats.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class="img-fluid" src='assets/img/items/Will-o-the-wisp.png'
+                                    alt='Will-o&#39-the-wisp'>
+                            </td>
+                            <td class='align-middle'>Will-o&#39-the-wisp</td>
+                            <td class='align-middle font-weight-bold' nowrap>1+</td>
+                            <td class='align-middle'>What if killing things caused things to die? Well, look no further;
+                                will-o-wisp causes enemies to explode on death and the explosion can proc other items.
+                                Stacking these increases range and damage, and though the damage increase isn't as good
+                                as ATG, will-o-wisp is a competitive option because it can cause death chains that can
+                                kill big targets for you.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/57_Leaf_Clover.png' alt='57 Leaf Clover'>
+                            </td>
+                            <td class='align-middle'>57 Leaf Clover</td>
+                            <td class='align-middle font-weight-bold' nowrap>1+</td>
+                            <td class='align-middle'>While attack speed covers taking more chances, Clover instead
+                                improves your chances. Each stack of Clover skews random items in your favor and most
+                                runs won't be able to hit the point of diminishing returns (about 20).
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Brilliant_Behemoth.png'
+                                    alt='Brilliant Behemoth'>
+                            </td>
+                            <td class='align-middle'>Brilliant Behemoth</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                            <td class='align-middle'>Behemoth causes all of your attacks to explode and also deal 60%
+                                extra damage. This damage bonus is extended to your proc effects. Additional Behemoths
+                                add only to the range of the effect, which cannot proc other items.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Ceremonial_Dagger.png' alt='Ceremonial Dagger'>
+                            </td>
+                            <td class='align-middle'>Ceremonial Dagger</td>
+                            <td class='align-middle font-weight-bold' nowrap>1+</td>
+                            <td class='align-middle'>In a dark laboratory somewhere, a mad scientist had the idea of
+                                combining Will-o-wisp's on-hit chaining effect with ATG's mobility, and Ceremonial
+                                Dagger was born. Additional stacks does not increase the number of daggers, but it does
+                                increase the damage.
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- Death Mark Container-->
+        <div class="container p-2">
+            <div class="row" data-toggle="collapse" data-target="#collapseDeathMark">
+                <div class="col">
+                    <div class="media" style="height: 2rem;">
+                        <div class="media-body">
+                            <h4 class="mt-0 mb-1 align-middle">DEATH MARK PACKAGE</h4>
+                        </div>
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/Acrid.png" alt="Acrid">
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/Artificer.png" alt="Artificer">
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/REX.png" alt="REX">
+                    </div>
+                </div>
+            </div>
+            <hr class="white" />
+            <div class="container collapse" id="collapseDeathMark">
+                <div class="row">
+                    <p>Where on-hit would blow up their enemies in magnificent fashion, the Death Mark strangles all it
+                        touches. This package is recommended for any character who can reliably inflict status ailments,
+                        notably Artificer, REX, and Acrid, though with the assistance of items, any survivor can get
+                        this
+                        package working.</p>
+                </div>
+                <div class="row">
+                    <table class="table table-dark">
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Death_Mark.png' alt='Death Mark'>
+                            </td>
+                            <td class='align-middle'>Death Mark</td>
+                            <td class='align-middle font-weight-bold' nowrap>1+</td>
+                            <td class='align-middle'>When an enemy becomes afflicted by 4 debuffs, they become subjected
+                                to
+                                the Death Mark, increasing all damage taken by 50% per stack. It's admittedly not much
+                                at
+                                first, but try out the package and you'll quickly realize why building around it is
+                                viable.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Tri-Tip_Dagger.png' alt='Tri-Tip Dagger'>
+                            </td>
+                            <td class='align-middle'>Tri-Tip Dagger</td>
+                            <td class='align-middle font-weight-bold' nowrap>3-5, 7-17</td>
+                            <td class='align-middle'>For characters with high proc chance, such as Artificer and Acrid,
+                                3
+                                daggers are enough to bleed high-priority targets, but it's recommended that you
+                                eventually
+                                reach 7 daggers for 100% chance to proc on each hit. For characters with low proc
+                                chance,
+                                such as MUL-T and REX, this increases to 5 and 17 stacks respectively.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Stun_Grenade.png' alt='Stun Grenade'>
+                            </td>
+                            <td class='align-middle'>Stun Grenade</td>
+                            <td class='align-middle font-weight-bold' nowrap>3-5, 20-50</td>
+                            <td class='align-middle'>In my experience, stun effects count as status effects. However,
+                                many
+                                high-priority targets are immune to stun, and stun chance is hard to stack. I recommend
+                                you
+                                save this item for last, if at all.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Gasoline.png' alt='Gasoline'>
+                            </td>
+                            <td class='align-middle'>Gasoline</td>
+                            <td class='align-middle font-weight-bold' nowrap>3-5</td>
+                            <td class='align-middle'>Gasoline is an on-death effect that causes nearby enemies to burn.
+                                With
+                                just a few stacks, you can easily get your main targets debuffed by killing trash
+                                enemies
+                                around them, though this is less reliable.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Chronobauble.png' alt='Chronobauble'>
+                            </td>
+                            <td class='align-middle'>Chronobauble</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                            <td class='align-middle'>How far the meek have risen. Behold the mighty chronobauble, the
+                                bearer
+                                of a guaranteed debuff. Get one and only one.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Runalds_Band.png' alt='Runald&#39s Band'>
+                            </td>
+                            <td class='align-middle'>Runald&#39s Band</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                            <td class='align-middle'>The white band's debuff is unique and can stack with chronobauble.
+                                Its
+                                low effect chance does hinder its usefulness, but it's still A debuff that can activate
+                                your
+                                build. Red band is optional for this build.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Shattering_Justice.png'
+                                    alt='Shattering Justice'>
+                            </td>
+                            <td class='align-middle'>Shattering Justice</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                            <td class='align-middle'>If you can get your hands on this item, it can often be your final
+                                piece to guarantee Death Mark. It also happens that removing the enemy's armor is very
+                                helpful. This is your preferred red item because it's another guaranteed proc.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Wake_of_Vultures.png' alt='Wake of Vultures'>
+                            </td>
+                            <td class='align-middle'>Wake of Vultures</td>
+                            <td class='align-middle font-weight-bold' nowrap>1?</td>
+                            <td class='align-middle'>Wake can temporarily turn you into an elite. If you become a Fire,
+                                Glacial, or Malachite elite, you have another guaranteed debuff for the duration. If you
+                                can
+                                manage without this, though, I would recommend skipping Vultures.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/57_Leaf_Clover.png' alt='57 Leaf Clover'>
+                            </td>
+                            <td class='align-middle'>57 Leaf Clover</td>
+                            <td class='align-middle font-weight-bold' nowrap>1+</td>
+                            <td class='align-middle'>Improving your odds to proc a debuff is always helpful, but the
+                                primary
+                                benefit of 57 Leaf Clover is actually to improve the chances that an elite with drop
+                                their
+                                affix. If you take an affix as your equipment, you can permanently have a Fire,
+                                Malachite,
+                                or Glacial debuff on all of your attacks.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- Rocket Container-->
+        <div class="container p-2">
+            <div class="row" data-toggle="collapse" data-target="#collapseRocket">
+                <div class="col">
+                    <div class="media" style="height: 2rem;">
+                        <div class="media-body">
+                            <h4 class="mt-0 mb-1 align-middle">ROCKET PACKAGE</h4>
+                        </div>
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/Loader.png" alt="Loader">
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/MUL-T.png" alt="MUL-T">
+                    </div>
+                </div>
+            </div>
+            <hr class="white" />
+            <div class="container collapse" id="collapseRocket">
+                <div class="row">
+                    <p>Loader's rocket punch and MUL-T's shopping cart both gain damage from move speed, so obviously,
+                        we want to know what items will help here.
+                    </p>
+                </div>
+                <div class="row">
+                    <table class="table table-dark">
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Pauls_Goat_Hoof.png' alt='Paul&#39s Goat Hoof'>
+                            </td>
+                            <td class='align-middle'>Paul&#39s Goat Hoof</td>
+                            <td class='align-middle font-weight-bold' nowrap>1+</td>
+                            <td class='align-middle'>This gives you speed. Goat Hoofs should be your main source of
+                                movement speed.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Energy_Drink.png' alt='Energy Drink'>
+                            </td>
+                            <td class='align-middle'>Energy Drink</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                            <td class='align-middle'>Energy drink gives +30% move speed while sprinting on the first
+                                stack, and both Loader and MUL-T can sprint during their respective attacks. However,
+                                each goat hoof is worth 20.7% extra move speed while sprinting, but subsequent Energy
+                                Drinks are worth only 20.01%, so go for Goat Hoofs.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Red_Whip.png' alt='Red Whip'>
+                            </td>
+                            <td class='align-middle'>Red Whip</td>
+                            <td class='align-middle font-weight-bold' nowrap>0</td>
+                            <td class='align-middle'>Of the conditional items that give movespeed, Red Whip is the
+                                easiest to activate, but it's generally not worth the effort. You're better off
+                                investing in the on-hit package.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Berzerkers_Pauldron.png'
+                                    alt='Berzerker&#39s Pauldron'>
+                            </td>
+                            <td class='align-middle'>Berzerker&#39s Pauldron</td>
+                            <td class='align-middle font-weight-bold' nowrap>3</td>
+                            <td class='align-middle'>The 100% move speed boost from Pauldron is great, but the 6s
+                                duration is not. That said, if you're really intent on getting that speed and you have
+                                some room for greens, 3 would give you a 14 second window that refreshes every time you
+                                get 3 kills in under a second, which is alright.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Wax_Quail.png' alt='Wax Quail'>
+                            </td>
+                            <td class='align-middle'>Wax Quail</td>
+                            <td class='align-middle font-weight-bold' nowrap>1+</td>
+                            <td class='align-middle'>Quails are a way of adding a huge burst of speed with a short hop.
+                                Loader can usually still go faster by grappling, but Quail hop is a lot easier to
+                                execute.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Hardlight_Afterburner.png'
+                                    alt='Hardlight Afterburner'>
+                            </td>
+                            <td class='align-middle'>Hardlight Afterburner</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                            <td class='align-middle'>While not technically adding damage, hardlight adds extra uses and
+                                reduces the cooldown of these two abilities, which increases damage uptime enough to
+                                warrant mention.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- Bungus Container-->
+        <div class="container p-2">
+            <div class="row" data-toggle="collapse" data-target="#collapseBungus">
+                <div class="col">
+                    <div class="media" style="height: 2rem;">
+                        <div class="media-body">
+                            <h4 class="mt-0 mb-1 align-middle">BUNGUS PACKAGE</h4>
+                        </div>
+                        <img class="float-right h-100 mx-1" src="assets/img/survivors/Engineer.png" alt="Engineer">
+                    </div>
+                </div>
+            </div>
+            <hr class="white" />
+            <div class="container collapse" id="collapseBungus">
+                <div class="row">
+                    <p>This package is pretty much exclusive to the Engineer and his static turrets, but if you can find
+                        a way to heal yourself rapidly for a lot of health, you may be able to adapt it to something
+                        else. This package should be combined with others.
+                    </p>
+                </div>
+                <div class="row">
+                    <table class="table table-dark">
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Bustling_Fungus.png' alt='Bustling Fungus'>
+                            </td>
+                            <td class='align-middle'>Bustling Fungus</td>
+                            <td class='align-middle font-weight-bold' nowrap>4-44</td>
+                            <td class='align-middle'>Bustling Fungus is a %max health heal and only needs 4 stacks to
+                                trigger the carrier or this build, but upon reaching 44 stacks, the healing reaches 103%
+                                of your max health per second. Going over can be useful with Aegis, but is not
+                                recommended.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Nkuhanas_Opinion.png'
+                                    alt='N&#39kuhana&#39s Opinion'>
+                            </td>
+                            <td class='align-middle'>N&#39kuhana&#39s Opinion</td>
+                            <td class='align-middle font-weight-bold' nowrap>1+</td>
+                            <td class='align-middle'>The simple version of this item is when you heal 10% of your max
+                                health, you send out a missile to hit something nearby. More stacks means more damage,
+                                but more healing and more health is also more damage.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Infusion.png' alt='Infusion'>
+                            </td>
+                            <td class='align-middle'>Infusion</td>
+                            <td class='align-middle font-weight-bold' nowrap>1+</td>
+                            <td class='align-middle'>Each completed infusion adds 100 health or 25 damage. I wouldn't
+                                build this FOR the damage, but it's survivability that does add damage.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Rejuvenation_Rack.png' alt='Rejuvenation Rack'>
+                            </td>
+                            <td class='align-middle'>Rejuvenation Rack</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                            <td class='align-middle'>Rack increases your healing, meaning you stack Opinion faster. The
+                                first doubles all healing you receive, and each additional Rack increases that
+                                multiplier by 1 (giving 3x, 4x, 5x, etc). For builds using Bungus, one is more than
+                                enough, but other builds may want to add more in order to be able to hit the Opinion
+                                threshold more frequently
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Titanic_Knurl.png' alt='Titanic Knurl'>
+                            </td>
+                            <td class='align-middle'>Titanic Knurl</td>
+                            <td class='align-middle font-weight-bold' nowrap>0+</td>
+                            <td class='align-middle'>Adds 40 health or 10 damage. If no one else wants the yellow item,
+                                take it, but it won't blow your mind.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Shaped_Glass.png' alt='Shaped Glass'>
+                            </td>
+                            <td class='align-middle'>Shaped Glass</td>
+                            <td class='align-middle font-weight-bold' nowrap>0+</td>
+                            <td class='align-middle'>Shaped Glass halves your health and doubles your damage. This
+                                results in a theoretical neutral exchange, or a marginal change due to rounding.
+                                However, shaped Glass will still double your other damage packages, so it's still
+                                viable.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- Other Container-->
+        <div class="container p-2">
+            <div class="row" data-toggle="collapse" data-target="#collapseOther">
+                <div class="col">
+                    <div class="media" style="height: 2rem;">
+                        <div class="media-body">
+                            <h4 class="mt-0 mb-1 align-middle">OTHER</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="white" />
+            <div class="container collapse" id="collapseOther">
+                <div class="row">
+                    <p>This isn't a package, but a way for me to talk about the remaining items or items that should be
+                        addressed separately.
+                    </p>
+                </div>
+                <div class="row">
+                    <table class="table table-dark">
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Armor-Piercing_Rounds.png'
+                                    alt='Armor-Piercing Round'>
+                            </td>
+                            <td class='align-middle'>Armor-Piercing Round</td>
+                            <td class='align-middle font-weight-bold' nowrap>0+</td>
+                            <td class='align-middle'>AP Rounds gives 20% extra damage against the Alloy Worship Unit and
+                                enemies summoned for the Teleporter event fight. It's worth picking up a few on any
+                                character, especially if you find teleporter fights are getting rough.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Bundle_of_Fireworks.png'
+                                    alt='Bundle of Fireworks'>
+                            </td>
+                            <td class='align-middle'>Bundle of Fireworks</td>
+                            <td class='align-middle font-weight-bold' nowrap>*</td>
+                            <td class='align-middle'>Fireworks is a nonsense item, but one that can wipe entire maps.
+                                Think of them like cluster ATGs that fire when you activate an item. Stacking these is
+                                nonsense, but the kind of nonsense everyone should try once.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Crowbar.png' alt='Crowbar'>
+                            </td>
+                            <td class='align-middle'>Crowbar</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                            <td class='align-middle'>Increases damage dealt to any enemy who's above 90% of their max
+                                health. This is great for eliminating trash enemies or for one shotting bosses as
+                                Loader. First crowbar gives 150% damage increase, with each subsequent giving only 50%,
+                                so one is often enough. Additionally, this damage bonus is the same type as AP Rounds
+                                and the melee crystal, which reduces their overall power.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Focus_Crystal.png' alt='Focus Crystal'>
+                            </td>
+                            <td class='align-middle'>Focus Crystal</td>
+                            <td class='align-middle font-weight-bold' nowrap>*</td>
+                            <td class='align-middle'>Increases damage at close range. Prioritizing these crystals as
+                                your only offensive white items is, by itself, a legitimate damage package for saw
+                                MUL-T, Mercenary, and Loader. For most other survivors, prioritize AP Rounds or Crowbar
+                                instead.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Warbanner.png' alt='Warbanner'>
+                            </td>
+                            <td class='align-middle'>Warbanner</td>
+                            <td class='align-middle font-weight-bold' nowrap>0</td>
+                            <td class='align-middle'>If Warbanner's condition were easier to meet, I would recommend
+                                everyone pick up a few. However, its effect is almost never where it needs to be, so I
+                                can only suggest to avoid it.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Old_Guillotine.png' alt='Old Guillotine'>
+                            </td>
+                            <td class='align-middle'>Old Guillotine</td>
+                            <td class='align-middle font-weight-bold' nowrap>7-8</td>
+                            <td class='align-middle'>Guillotine reduces the effective HP of all elites, and executes
+                                them when they get under a certain % of their max HP. At around seven guillotines, this
+                                is approximately half of their health, and further stacks add less effective damage than
+                                investing in another ATG or Death Mark.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Razorwire.png' alt='Razorwire'>
+                            </td>
+                            <td class='align-middle'>Razorwire</td>
+                            <td class='align-middle font-weight-bold' nowrap>*</td>
+                            <td class='align-middle'>A defensive Ukulele. There are some shenanigans you can pull with
+                                this combined with Void Fields and Hellfire Tincture, but aside from those, Razorwire is
+                                a questionable option. Probably go for something else, but having a razorwire or two is
+                                never a bad thing.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Squid_Polyp.png' alt='Squid Polyp'>
+                            </td>
+                            <td class='align-middle'>Squid Polyp</td>
+                            <td class='align-middle font-weight-bold' nowrap>0</td>
+                            <td class='align-middle'>Squid Polyps shouldn't be a green item. If anything, Firewords
+                                should be given a 1.0 proc coefficient and swap rarities with this item because they do
+                                the same thing, only Squid Polyp does it worse.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/War_Horn.png' alt='War Horn'>
+                            </td>
+                            <td class='align-middle'>War Horn</td>
+                            <td class='align-middle font-weight-bold' nowrap>*</td>
+                            <td class='align-middle'>Warhorn is actually a good boost and many builds utilizing Gesture
+                                of the Drowned can get a lot of mileage out of it, but if you don't have a way to
+                                reliably trigger it, warhorn is rather useless. How much you should stack is
+                                build-dependent.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Frost_Relic.png' alt='Frost Relic'>
+                            </td>
+                            <td class='align-middle'>Frost Relic</td>
+                            <td class='align-middle font-weight-bold' nowrap>0</td>
+                            <td class='align-middle'>Creates a damaging aura around you when you kill an enemy. The
+                                damage is alright, but the range is pretty bad, even for characters like Merc. Also it
+                                can kill you if you wander too close to explosives.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Resonance_Disc.png' alt='Resonance Disc'>
+                            </td>
+                            <td class='align-middle'>Resonance Disc</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                            <td class='align-middle'>Resonance disc is a "win more" item, in that if you've got the
+                                build to keep it active, it'll accelerate that process. When moving it has a good proc
+                                coefficient, thus synergizes well with the on-hit package, and the explosion does
+                                massive damage, which combines well with the crit package.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Sentient_Meat_Hook.png'
+                                    alt='Sentient Meat Hook'>
+                            </td>
+                            <td class='align-middle'>Sentient Meat Hook</td>
+                            <td class='align-middle font-weight-bold' nowrap>1-2</td>
+                            <td class='align-middle'>Sentient Meat Hook is kind of a cross between Ukulele and
+                                Razorwire. It's weaker than many red items, but it is at least stronger than many green
+                                items. Increased stacks increases proc chance, but at an odd pattern, consult the wiki
+                                for details.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Unstable_Tesla_Coil.png'
+                                    alt='Unstable Tesla Coil'>
+                            </td>
+                            <td class='align-middle'>Unstable Tesla Coil</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                            <td class='align-middle'>Frost Relic but better. When Tesla Coil activates, it's like having
+                                a Ukulele firing around you constantly with a slightly higher proc chance. Additional
+                                stacks don't really help much.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Little_Disciple.png' alt='Little Disciple'>
+                            </td>
+                            <td class='align-middle'>Little Disciple</td>
+                            <td class='align-middle font-weight-bold' nowrap>1</td>
+                            <td class='align-middle'>Unstable Tesla Coil but better. Little Disciple activates once two
+                                conditions have been met: you are sprinting, and there are enemies nearby. It will then
+                                send out seeking missiles, number of which is determined by your stack count. Also the
+                                missiles have a full 1.0 proc coefficient, so grab a few, grab a Rose Buckler, and have
+                                some fun. NOTE: this only requires you to be sprinting, not moving. If you sprint into a
+                                wall, you can have both Little Disciple and Bustling Fungus active at the same time.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class='align-middle'>
+                                <img class='w-100' src='assets/img/items/Shaped_Glass.png' alt='Shaped Glass'>
+                            </td>
+                            <td class='align-middle'>Shaped Glass</td>
+                            <td class='align-middle font-weight-bold' nowrap>*</td>
+                            <td class='align-middle'>Shaped Glass is the king of Risk of Rain 2. Each stack doubles your
+                                damage and halves your health, and they stack multiplicatively, meaning 2 gives 4x
+                                damage, 3 gives 8x, 4 gives 16x, etc. When playing casually, these are never needed, but
+                                if you're actually trying, you should grab as many as you can handle.
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer page-footer text-center">
+        <p>Data by LordDeathDark
+            <br />Code by chcarraway</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>

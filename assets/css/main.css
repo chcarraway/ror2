@@ -1,0 +1,23 @@
+body {
+    background-color: #16365c;
+    color: white;
+    height: 100vh
+}
+::-webkit-scrollbar {
+    display: none;
+}
+p, td {
+    color: white;
+}
+
+h1, h2 {
+    color: #e26b0a
+}
+
+hr.orange {
+    border-top: 1px solid #e26b0a;
+}
+
+hr.white {
+    border-top: 1px solid white;
+}
