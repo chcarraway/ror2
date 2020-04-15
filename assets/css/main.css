@@ -10,8 +10,11 @@ p, td {
     color: white;
 }
 
-h1, h2, button {
+h1, h2, button, a {
     color: #e26b0a
+}
+a:hover {
+    color: white;
 }
 h4 {
     white-space: nowrap;
