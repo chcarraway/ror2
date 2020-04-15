@@ -27,3 +27,8 @@ hr.white {
 .survivor {
     height: 2rem;
 }
+
+.item {
+    min-width: 1rem;
+    min-height: 1rem;
+}
