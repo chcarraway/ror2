@@ -31,9 +31,10 @@
                     experience and opinions. I consider Equipment to be part of your "build", rather than a fragment of
                     it, so I won't be covering it in this guide.
                 </p>
-                <p>
-                    Click on the package title to expand its contents.
-                </p>
+                <button class="btn btn-outline-light btn-block" type="button" data-toggle="collapse"
+                    data-target=".multi-collapse">
+                    Click on the package title to expand its contents, or click here to expand/collapse all packages.
+                </button>
             </div>
         </div>
         <!-- Crit Container-->
@@ -54,7 +55,7 @@
                 </div>
             </div>
             <hr class="white" />
-            <div class="container collapse" id="collapseCrit">
+            <div class="container collapse multi-collapse" id="collapseCrit">
                 <div class="row">
                     <p>Critical attacks deal double damage, but damage-over-time effects (fire, bleed, poison) cannot
                         crit. This package should be prioritized on characters with slow, heavy hits and is recommended
@@ -132,7 +133,7 @@
                 </div>
             </div>
             <hr class="white" />
-            <div class="container collapse" id="collapseOn-Hit">
+            <div class="container collapse multi-collapse" id="collapseOn-Hit">
                 <div class="row">
                     <p>The on-hit package is the package of randomness, and the options for randomness are to either
                         improve your chances or take more chances. This package is recommended for characters who can
@@ -334,7 +335,7 @@
                 </div>
             </div>
             <hr class="white" />
-            <div class="container collapse" id="collapseDeathMark">
+            <div class="container collapse multi-collapse" id="collapseDeathMark">
                 <div class="row">
                     <p>Where on-hit would blow up their enemies in magnificent fashion, the Death Mark strangles all it
                         touches. This package is recommended for any character who can reliably inflict status ailments,
@@ -456,10 +457,12 @@
                 </div>
             </div>
             <hr class="white" />
-            <div class="container collapse" id="collapseRocket">
+            <div class="container collapse multi-collapse" id="collapseRocket">
                 <div class="row">
                     <p>Loader's rocket punch and MUL-T's shopping cart both gain damage from move speed, so obviously,
-                        we want to know what items will help here.
+                        we want to know what items will help here. If you want to run this package on MUL-T, I recommend
+                        that you combine it with Power-Saw as the saw blade can remain out and active during Transport
+                        Mode.
                     </p>
                 </div>
                 <div class="row">
@@ -573,7 +576,7 @@
                 </div>
             </div>
             <hr class="white" />
-            <div class="container collapse" id="collapseBungus">
+            <div class="container collapse multi-collapse" id="collapseBungus">
                 <div class="row">
                     <p>This package is pretty much exclusive to the Engineer and his static turrets, but if you can find
                         a way to heal yourself rapidly for a lot of health, you may be able to adapt it to something
@@ -663,7 +666,7 @@
                 </div>
             </div>
             <hr class="white" />
-            <div class="container collapse" id="collapseOther">
+            <div class="container collapse multi-collapse" id="collapseOther">
                 <div class="row">
                     <p>This isn't a package, but a way for me to talk about the remaining items or items that should be
                         addressed separately.
