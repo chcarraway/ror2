@@ -32,6 +32,8 @@ hr.white {
 }
 
 .item {
-    min-width: 1rem;
-    min-height: 1rem;
+    min-width: 4rem;
+    min-height: 4rem;
+    max-width: 4rem;
+    max-height: 4rem;
 }
